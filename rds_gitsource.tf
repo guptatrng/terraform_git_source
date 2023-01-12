@@ -8,3 +8,7 @@ resource "aws_db_instance" "rdsgitsourcedb" {
 	username = "admin"
 	password = "admin1234"
 }
+
+output "rdsarn" {
+	value = aws_db_instance.rdsgitsourcedb.arn
+}
