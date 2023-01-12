@@ -1,4 +1,4 @@
-resource "aws_db_instance" {
+resource "aws_db_instance" "rdsgitsourcedb" {
 	allocated_storage = 10
 	max_allocated_storage = 20
 	engine = "mysql"
